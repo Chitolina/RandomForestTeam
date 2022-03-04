@@ -1,6 +1,7 @@
 <h1 align=center><a target="_blank" href="https://demo.gethugothemes.com/liva" rel="nofollow">Time Random Forest</a> <a  target="_blank"></a></h1>
 
-## Projeto: [Health Insurance Cross Sell Prediction 🏠 🏥](https://www.kaggle.com/anmolkumar/health-insurance-cross-sell-prediction)
+### Componentes: [Lucas Chitolina](https://github.com/Chitolina), [Weber Godoi](https://github.com/webercg)
+### Projeto: [Health Insurance Cross Sell Prediction 🏠 🏥](https://www.kaggle.com/anmolkumar/health-insurance-cross-sell-prediction)
 
 
 ### Desafios:

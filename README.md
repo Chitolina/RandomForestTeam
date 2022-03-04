@@ -7,6 +7,11 @@
 ### Componentes: Jefferson Douglas, [Lucas Chitolina](https://github.com/Chitolina), Vinícius Freitas e [Weber Godoi](https://github.com/webercg)
 ### Projeto: [Health Insurance Cross Sell Prediction 🏠 🏥](https://www.kaggle.com/anmolkumar/health-insurance-cross-sell-prediction)
 
+### Ferramentas:
+
+● [Análise Exploratória](https://github.com/Chitolina/RandomForestTeam/tree/main/EDA) <img align="center" alt="Jupyter" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">  
+● [Gerenciamento de Tarefas](https://trello.com/b/Nypkyrp3/randomforest)
+
 ### Desafios:
 
 Classificação de clientes que podem se interessar por 

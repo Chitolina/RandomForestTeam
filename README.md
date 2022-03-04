@@ -10,7 +10,7 @@
 ### Ferramentas:
 
 ● [Análise Exploratória](https://github.com/Chitolina/RandomForestTeam/tree/main/EDA) <img align="center" alt="Jupyter" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">  
-● [Gerenciamento de Tarefas](https://trello.com/b/Nypkyrp3/randomforest)
+● [Gerenciamento de Tarefas](https://trello.com/b/Nypkyrp3/randomforest)  
 ● Cloud (em breve)  
 ● Modelo Preditivo (em breve)  
 ● Deploy de Dashboard (em breve)  

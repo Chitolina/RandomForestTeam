@@ -10,9 +10,8 @@ seguros de veículos.
 
 ### Objetivo:
 
-Produzir um modelo preditivo para classificação clientes que 
-podem se tornar clientes também do seguro de veículos da 
-companhia
+Produzir um modelo preditivo para classificação de potenciais clientes a firmar seguro de veículo com a 
+companhia.
 
 ### Entregáveis:
 

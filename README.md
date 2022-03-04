@@ -3,6 +3,10 @@
 ### Componentes: [Lucas Chitolina](https://github.com/Chitolina), [Weber Godoi](https://github.com/webercg)
 ### Projeto: [Health Insurance Cross Sell Prediction 🏠 🏥](https://www.kaggle.com/anmolkumar/health-insurance-cross-sell-prediction)
 
+ </div>
+ <div style="display: inline_block"><br>
+<img align="right" img class="giphy-gif-img giphy-img-loaded" src="https://media0.giphy.com/media/8vCEBhQjwS7l5eU1Nz/200w.gif?cid=ecf05e47wcv510i603wj6kgkqvh9b8tb8ki3d021xic2oped&amp;rid=200w.gif&amp;ct=s" width="248" height="248" alt="car crash Sticker by Tahilalats" style="background: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4AQMAAACSSKldAAAABlBMVEUhIiIWFhYoSqvJAAAAGElEQVQY02MAAv7///8PWxqIPwDZw5UGABtgwz2xhFKxAAAAAElFTkSuQmCC&quot;) 0px 0px;">
+ </div>
 
 ### Desafios:
 

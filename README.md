@@ -30,7 +30,7 @@ modelo.
 7. Data App ou API para consumo do modelo.
 8. Apresentação em formato slide ou pdf.
 
-### Premissas e pontos para levar em consideração.  
+### Premissas e pontos para levar em consideração:  
 ● Organização.  
 ○ Código.  
 ○ Artefatos.  

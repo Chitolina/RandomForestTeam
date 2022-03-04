@@ -45,5 +45,3 @@ valor para o negócio.
 ○ O seu projeto SEMPRE terá melhorias.  
 ● Se possível trazer algo funcionando.  
 ○ Uma API, Dashboard, App.  
-● Vamos divulgar o seu trabalho.  
-

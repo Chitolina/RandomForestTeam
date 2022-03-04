@@ -17,10 +17,7 @@ companhia.
 
 1. Data Pipeline para automatizar todas as etapas de 
 um projeto de dados.
-2. Modelo preditivo que dado um determinado 
-conjunto de características o modelo consiga 
-detectar se a pessoa está com alguma das doenças 
-ou não e a sua probabilidade.
+2. Modelo preditivo.
 3. Código fonte e artefatos do projeto.
 4. Listagem de fatores que influenciam a decisão do 
 modelo.

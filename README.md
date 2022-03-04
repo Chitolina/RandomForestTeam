@@ -1,19 +1,20 @@
-# RandomForestTeam
+<h1 align=center><a target="_blank" href="https://demo.gethugothemes.com/liva" rel="nofollow">Time Random Forest</a> <a  target="_blank"></a></h1>
 
-Desafios:
+## Projeto: [Health Insurance Cross Sell Prediction 🏠 🏥](https://www.kaggle.com/anmolkumar/health-insurance-cross-sell-prediction)
+
+
+### Desafios:
 
 Classificação de clientes que podem se interessar por 
 seguros de veículos.
 
-Health Insurance Cross Sell Prediction 🏠 🏥 | Kaggle
-
-Objetivo:
+### Objetivo:
 
 Produzir um modelo preditivo para classificação clientes que 
 podem se tornar clientes também do seguro de veículos da 
 companhia
 
-Entregáveis:
+### Entregáveis:
 
 1. Data Pipeline para automatizar todas as etapas de 
 um projeto de dados.
@@ -29,7 +30,7 @@ modelo.
 7. Data App ou API para consumo do modelo.
 8. Apresentação em formato slide ou pdf.
 
-Premissas e pontos para levar em consideração.
+### Premissas e pontos para levar em consideração.  
 ● Organização.  
 ○ Código.  
 ○ Artefatos.  

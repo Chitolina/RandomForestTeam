@@ -4,7 +4,13 @@
 <img align="right" img class="giphy-gif-img giphy-img-loaded" src="https://media1.giphy.com/media/4mc6Dsn9gyWTS/200w.gif?cid=ecf05e47bhsy1gj453r24ma84o3sdpb5x0l5uys3qfp3il1h&amp;rid=200w.gif&amp;ct=s" width="200" height="200" alt="car accident smoke Sticker" style="background: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4AQMAAACSSKldAAAABlBMVEUhIiIWFhYoSqvJAAAAGElEQVQY02MAAv7///8PWxqIPwDZw5UGABtgwz2xhFKxAAAAAElFTkSuQmCC&quot;) 0px 0px;">
  </div>
  
-### Componentes: [Bruno Freitas](https://github.com/Freitashbruno), Jefferson Douglas, [Lucas Chitolina](https://github.com/Chitolina) e [Weber Godoi](https://github.com/webercg)
+### Componentes:  
+[Alex Graziani](https://github.com/awildt01),    
+[Bruno Freitas](https://github.com/Freitashbruno),  
+Jefferson Douglas,    
+[Lucas Chitolina](https://github.com/Chitolina) e   
+[Weber Godoi](https://github.com/webercg)  
+
 ### Projeto: [Health Insurance Cross Sell Prediction 🏠 🏥](https://www.kaggle.com/anmolkumar/health-insurance-cross-sell-prediction)
 
 ### Ferramentas:

@@ -19,7 +19,7 @@ Jefferson Douglas,
 ● [Gerenciamento de Tarefas](https://trello.com/b/Nypkyrp3/randomforest)  
 ● Cloud (em breve)  
 ● Modelo Preditivo (em breve)  
-● [Dashboard BI](https://github.com/Chitolina/RandomForestTeam/tree/main/BI_RANDOMF)
+● [Dashboard BI](https://github.com/Chitolina/RandomForestTeam/tree/main/BI_RANDOMF)  
 ● Apresentação (em breve)  
 
 ### Desafios:

@@ -13,7 +13,17 @@ st.sidebar.title('Menu')
 pagSelecionada = st.sidebar.selectbox('Escolha uma seção',['Home','EDA', 'Previsão de vendas', 'Arquitetura do Projeto', 'Desafios', 'Equipe e Agradecimentos'])
 
 if pagSelecionada == 'Home':
-    st.title("Bem vindo!")
+    st.title("Bem-vindo!")    
+    st.markdown("Este trabalho foi realizado pelo grupo [Random Forest](https://github.com/Chitolina/RandomForestTeam) do curso de treinamento para cientista de dados [Stack Academy](https://www.youtube.com/c/Stack_tecnologias). Os componentes do grupo são: [Alex Graziani](https://github.com/awildt01), [Bruno Freitas](https://github.com/Freitashbruno), [Lucas Chitolina](https://github.com/Chitolina) e [Weber Godoi](https://github.com/webercg).")
+    st.markdown("O projeto de estudo escolhido foi o: [Health Insurance Cross Sell Prediction 🏠 🏥](https://www.kaggle.com/anmolkumar/health-insurance-cross-sell-prediction).")
+    st.markdown("Do que se trata o projeto?")
+    st.markdown("Nosso cliente é uma seguradora que forneceu seguro de saúde para seus clientes, agora eles precisam de sua ajuda na construção de um modelo para prever se os segurados (clientes) do ano passado também terão interesse no seguro de veículos fornecido pela empresa.")
+    st.markdown("Construir um modelo para prever se um cliente estaria interessado em seguro de veículo é extremamente útil para a empresa, pois ela pode planejar adequadamente sua estratégia de comunicação para alcançar esses clientes e otimizar seu modelo de negócios e receita. Agora, para prever se o cliente estaria interessado em seguro de veículo, você tem informações sobre dados demográficos (gênero, idade, tipo de código de região), veículos (idade do veículo, danos), apólice (premium, canal de fornecimento) etc.")
+    st.markdown("Ferramentas utilizadas:")
+    st.markdown("● [Análise Exploratória](https://github.com/Chitolina/RandomForestTeam/tree/main/EDA)      ● [Gerenciamento de Tarefas](https://trello.com/b/Nypkyrp3/randomforest)    ● Cloud (em breve)      ● [Modelo Preditivo](https://github.com/Chitolina/RandomForestTeam/blob/main/EDA/Funcao%20de%20Custo%20e%20Selecao%20de%20Modelo.ipynb)     ● [Dashboard BI](https://github.com/Chitolina/RandomForestTeam/tree/main/BI_RANDOMF)    ● Apresentação (em breve)")
+    
+    image = Image.open('static/TRF.png')
+    st.image(image)
 
 elif pagSelecionada == 'EDA':
     st.title("Análise Exploratória dos dados")

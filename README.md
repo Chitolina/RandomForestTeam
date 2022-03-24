@@ -6,9 +6,9 @@
  
 ### Componentes:  
 [Alex Graziani](https://github.com/awildt01),    
-[Bruno Freitas](https://github.com/Freitashbruno),
-[Lucas Chitolina](https://github.com/Chitolina) e   
-[Weber Godoi](https://github.com/webercg)  
+[Bruno Freitas](https://github.com/Freitashbruno),  
+[Lucas Chitolina](https://github.com/Chitolina) e     
+[Weber Godoi](https://github.com/webercg)    
 
 ### Projeto: [Health Insurance Cross Sell Prediction 🏠 🏥](https://www.kaggle.com/anmolkumar/health-insurance-cross-sell-prediction)
 

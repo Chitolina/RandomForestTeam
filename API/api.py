@@ -9,6 +9,7 @@ import streamlit as st
 
 model = joblib.load('model/model.pkl')
 
+st.sidebar.image('static/hmm.png', use_column_width=True)
 st.sidebar.title('Menu')
 pagSelecionada = st.sidebar.selectbox('Escolha uma seção',['Home','EDA', 'Previsão de vendas', 'Arquitetura do Projeto', 'Desafios', 'Equipe e Agradecimentos'])
 
@@ -22,9 +23,6 @@ if pagSelecionada == 'Home':
     st.markdown("Ferramentas utilizadas:")
     st.markdown("● [Análise Exploratória](https://github.com/Chitolina/RandomForestTeam/tree/main/EDA)      ● [Gerenciamento de Tarefas](https://trello.com/b/Nypkyrp3/randomforest)    ● Cloud (em breve)      ● [Modelo Preditivo](https://github.com/Chitolina/RandomForestTeam/blob/main/EDA/Funcao%20de%20Custo%20e%20Selecao%20de%20Modelo.ipynb)     ● [Dashboard BI](https://github.com/Chitolina/RandomForestTeam/tree/main/BI_RANDOMF)    ● Apresentação (em breve)")
     
-    image = Image.open('static/TRF.png')
-    st.image(image)
-
 elif pagSelecionada == 'EDA':
     st.title("Análise Exploratória dos dados")
 

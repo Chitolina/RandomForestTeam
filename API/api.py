@@ -142,9 +142,27 @@ elif pagSelecionada == 'Previsão de vendas':
         stringretorno = str(strretorno)
         st.write(strretorno)
 
-        
+elif pagSelecionada = 'Arquitetura do Projeto'
+    st.title("Arquitetura do Projeto")
+    
+    st.markdown('Para a nosssa engenharia de dados obtamos uma solução em cloud com o Databricks que nos deu a oportunidade de trabalhar com uma technologia basseada em Apache Spark.')
+    st.markdown('A organização e o processo das datas (Data Lake) foi feita no Databricks.')
+    st.markdown('Criamos uma conta no Github para a disponibilização do Dataset, facilitando o trabalho em grupo e a documentação do projeto')
+    img = Image.open("static/diagramm.jpg" ) 
+    st.image(img)
+
+
+
 elif pagSelecionada == 'Desafios':
     st.title("Principais desafios do projeto")
+    
+    st.write('O nosso desavio consiste em construir um modelo de previsão dos segurados que teriam interrese em Seguro de Veículos.')
+    st.write('Nosso cliente é uma Seguradora que fornece seguro de saúde para seus clientes e que pretende no futuro fornecer também seguro de veículos.')
+    st.write('Assim como o seguro médico, existe o seguro de veículo onde todos os anos o cliente precisa pagar um prêmio de certo valor à seguradora para que,em caso de acidente com o veículo, a seguradora forneça uma indenização para o consumidor.')
+    st.write('Construir um modelo para prever se um cliente estaria interessado em seguro de veículo é extremamente útil para a empresa, pois ela pode planejar adequadamente sua estratégia de comunicação para alcançar esses clientes e otimizar seu modelo de negócios e receita..')
+    st.write('Para prever se o segurado estaria interessado em um  seguro de veículo, temos informações sobre dados demográficos (gênero, idade, tipo de código de região), veículos (idade do veículo, danos), premium e canal de fornecimento.')
+    img = Image.open("static/kisspng.jpg" ) 
+    st.image(img)
 
 elif pagSelecionada == 'Equipe e Agradecimentos':
     st.title("Equipe e Agradecimentos")

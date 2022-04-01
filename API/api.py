@@ -5,30 +5,100 @@ import joblib
 import pandas as pd
 from PIL import Image
 
+import streamlit.components.v1 as components
 import streamlit as st
 
-model = joblib.load('model/model.pkl')
+#model = joblib.load('model.pkl')
+model = joblib.load(open(os.path.join('model/model.pkl'),"rb"))
+
 
 st.set_page_config(page_title="Random Forest", page_icon="🌱")
-st.sidebar.image('static/hmm.png', use_column_width=True)
+
+
+st.sidebar.image('static/rf team2.png', use_column_width=True )
 st.sidebar.title('Menu')
-pagSelecionada = st.sidebar.selectbox('Escolha uma seção',['Home','EDA', 'Previsão de vendas', 'Arquitetura do Projeto', 'Desafios', 'Equipe e Agradecimentos'])
+pagSelecionada = st.sidebar.selectbox('Escolha uma seção',['Home','EDA', 'Previsão de vendas', 'Arquitetura do Projeto', 'Premissas, objetivos e desafios', 'Equipe e Agradecimentos'])
+
+
 
 if pagSelecionada == 'Home':
-    st.title("Bem-vindo!")    
+
+    col1, col2, col3, col4, col5 = st.columns(5)
+
+    with col1:
+        img = Image.open("static/rf2.png" ) 
+        st.image(img)
+    with col2:
+        img = Image.open("static/rf2.png" ) 
+        st.image(img)
+    with col3:
+        img = Image.open("static/rf3 logo.png" ) 
+        st.image(img)
+    with col4:
+        img = Image.open("static/rf2.png" ) 
+        st.image(img)
+    with col5:
+        img = Image.open("static/rf2.png" ) 
+        st.image(img)
+
+    st.title("Bem-vindo!")  
+      
     st.markdown("Este trabalho foi realizado pelo grupo [Random Forest](https://github.com/Chitolina/RandomForestTeam) do curso de treinamento para cientista de dados [Stack Academy](https://www.youtube.com/c/Stack_tecnologias). Os componentes do grupo são: [Alex Graziani](https://github.com/awildt01), [Bruno Freitas](https://github.com/Freitashbruno), [Lucas Chitolina](https://github.com/Chitolina) e [Weber Godoi](https://github.com/webercg).")
-    st.markdown("O projeto de estudo escolhido foi o: [Health Insurance Cross Sell Prediction 🏠 🏥](https://www.kaggle.com/anmolkumar/health-insurance-cross-sell-prediction).")
+    st.markdown("O tema escolhido para elaboração do projeto foi: [Health Insurance Cross Sell Prediction 🏠 🏥](https://www.kaggle.com/anmolkumar/health-insurance-cross-sell-prediction).")
     st.markdown("Do que se trata o projeto?")
     st.markdown("Nosso cliente é uma seguradora que forneceu seguro de saúde para seus clientes, agora eles precisam de sua ajuda na construção de um modelo para prever se os segurados (clientes) do ano passado também terão interesse no seguro de veículos fornecido pela empresa.")
     st.markdown("Construir um modelo para prever se um cliente estaria interessado em seguro de veículo é extremamente útil para a empresa, pois ela pode planejar adequadamente sua estratégia de comunicação para alcançar esses clientes e otimizar seu modelo de negócios e receita. Agora, para prever se o cliente estaria interessado em seguro de veículo, você tem informações sobre dados demográficos (gênero, idade, tipo de código de região), veículos (idade do veículo, danos), apólice (premium, canal de fornecimento) etc.")
-    st.markdown("Ferramentas utilizadas:")
-    st.markdown("● [Análise Exploratória](https://github.com/Chitolina/RandomForestTeam/tree/main/EDA)      ● [Gerenciamento de Tarefas](https://trello.com/b/Nypkyrp3/randomforest)    ● Cloud (em breve)      ● [Modelo Preditivo](https://github.com/Chitolina/RandomForestTeam/blob/main/EDA/Funcao%20de%20Custo%20e%20Selecao%20de%20Modelo.ipynb)     ● [Dashboard BI](https://github.com/Chitolina/RandomForestTeam/tree/main/BI_RANDOMF)    ● Apresentação (em breve)")
+    st.header("Repositório do Projeto:")
+    st.markdown("● [Análise Exploratória](https://github.com/Chitolina/RandomForestTeam/tree/main/EDA)")     
+    st.markdown("● [Gerenciamento de Tarefas](https://trello.com/b/Nypkyrp3/randomforest)")
+    st.markdown("● Cloud (em breve)")      
+    st.markdown("● [Modelo Preditivo](https://github.com/Chitolina/RandomForestTeam/blob/main/EDA/Funcao%20de%20Custo%20e%20Selecao%20de%20Modelo.ipynb)")
+    st.markdown("● [Dashboard BI](https://github.com/Chitolina/RandomForestTeam/tree/main/BI_RANDOMF)")
+    st.markdown("● Apresentação (em breve)")
     
 elif pagSelecionada == 'EDA':
+    col1, col2, col3, col4, col5 = st.columns(5)
+
+    with col1:
+        img = Image.open("static/rf2.png" ) 
+        st.image(img)
+    with col2:
+        img = Image.open("static/rf2.png" ) 
+        st.image(img)
+    with col3:
+        img = Image.open("static/rf3 logo.png" ) 
+        st.image(img)
+    with col4:
+        img = Image.open("static/rf2.png" ) 
+        st.image(img)
+    with col5:
+        img = Image.open("static/rf2.png" ) 
+        st.image(img)
+    
     st.title("Análise Exploratória dos dados")
 
+    components.iframe("https://app.powerbi.com/view?r=eyJrIjoiOGNmYjk3NGYtMzNkYy00NWU2LWEzMzYtZWExMjkyNjViOGZlIiwidCI6IjNmOGRhZmZlLTY4NzAtNGYzNy05NjdmLWFkMzE4ZGFhNDA4OSJ9&pageName=ReportSection", width=600, height=373.5)
 
 elif pagSelecionada == 'Previsão de vendas':
+
+    col1, col2, col3, col4, col5 = st.columns(5)
+
+    with col1:
+        img = Image.open("static/rf2.png" ) 
+        st.image(img)
+    with col2:
+        img = Image.open("static/rf2.png" ) 
+        st.image(img)
+    with col3:
+        img = Image.open("static/rf3 logo.png" ) 
+        st.image(img)
+    with col4:
+        img = Image.open("static/rf2.png" ) 
+        st.image(img)
+    with col5:
+        img = Image.open("static/rf2.png" ) 
+        st.image(img)
+
     st.title("Cross-Selling: Previsão de vendas")
     st.write("Previsão de vendas de seguro veicular a clientes de seguro de saúde")
 
@@ -142,27 +212,119 @@ elif pagSelecionada == 'Previsão de vendas':
         stringretorno = str(strretorno)
         st.write(strretorno)
 
-elif pagSelecionada = 'Arquitetura do Projeto'
+elif pagSelecionada == 'Arquitetura do Projeto':
+
+    col1, col2, col3, col4, col5 = st.columns(5)
+
+    with col1:
+        img = Image.open("static/rf2.png" ) 
+        st.image(img)
+    with col2:
+        img = Image.open("static/rf2.png" ) 
+        st.image(img)
+    with col3:
+        img = Image.open("static/rf3 logo.png" ) 
+        st.image(img)
+    with col4:
+        img = Image.open("static/rf2.png" ) 
+        st.image(img)
+    with col5:
+        img = Image.open("static/rf2.png" ) 
+        st.image(img)
+
+
     st.title("Arquitetura do Projeto")
     
-    st.markdown('Para a nosssa engenharia de dados obtamos uma solução em cloud com o Databricks que nos deu a oportunidade de trabalhar com uma technologia basseada em Apache Spark.')
+    st.markdown('Para a nosssa engenharia de dados obtemos uma solução em cloud com o Databricks que nos deu a oportunidade de trabalhar com uma technologia basseada em Apache Spark.')
     st.markdown('A organização e o processo das datas (Data Lake) foi feita no Databricks.')
-    st.markdown('Criamos uma conta no Github para a disponibilização do Dataset, facilitando o trabalho em grupo e a documentação do projeto')
-    img = Image.open("static/diagramm.jpg" ) 
+    img = Image.open("Roadmap2.jpg" ) 
     st.image(img)
 
 
 
-elif pagSelecionada == 'Desafios':
-    st.title("Principais desafios do projeto")
+elif pagSelecionada == 'Premissas, objetivos e desafios':
+
+    col1, col2, col3, col4, col5 = st.columns(5)
+
+    with col1:
+        img = Image.open("static/rf2.png" ) 
+        st.image(img)
+    with col2:
+        img = Image.open("static/rf2.png" ) 
+        st.image(img)
+    with col3:
+        img = Image.open("static/rf3 logo.png" ) 
+        st.image(img)
+    with col4:
+        img = Image.open("static/rf2.png" ) 
+        st.image(img)
+    with col5:
+        img = Image.open("static/rf2.png" ) 
+        st.image(img)
+
+    st.title("Premissas, objetivos e desafios")
     
-    st.write('O nosso desavio consiste em construir um modelo de previsão dos segurados que teriam interrese em Seguro de Veículos.')
+    st.write('O principal desafio consiste em construir um modelo de previsão dos segurados que teriam interrese em Seguro de Veículos.')  
     st.write('Nosso cliente é uma Seguradora que fornece seguro de saúde para seus clientes e que pretende no futuro fornecer também seguro de veículos.')
-    st.write('Assim como o seguro médico, existe o seguro de veículo onde todos os anos o cliente precisa pagar um prêmio de certo valor à seguradora para que,em caso de acidente com o veículo, a seguradora forneça uma indenização para o consumidor.')
-    st.write('Construir um modelo para prever se um cliente estaria interessado em seguro de veículo é extremamente útil para a empresa, pois ela pode planejar adequadamente sua estratégia de comunicação para alcançar esses clientes e otimizar seu modelo de negócios e receita..')
-    st.write('Para prever se o segurado estaria interessado em um  seguro de veículo, temos informações sobre dados demográficos (gênero, idade, tipo de código de região), veículos (idade do veículo, danos), premium e canal de fornecimento.')
-    img = Image.open("static/kisspng.jpg" ) 
+   
+    st.header('Premissas:')
+    st.write('- Erros de classificação de pessoas interessadas no seguro de veículo possuem custo superior a classificação errônea de pessoas não interessadas.')
+    st.write('- As variáveis que são manipuláveis pelo negócio são: Canal de Venda e Valor anual do seguro de saúde.')
+
+    st.header('Objetivos:')
+    st.write('- Avaliar o impacto do Canal de Vendas sobre o interesse de clientes e inferir o Canal de Venda que maximiza a probabilidade de clientes adquirirem o seguro de veículos')
+    st.write('- Avaliar quantas pessoas terão interesse no seguro de veículos após a oferta de 10% de desconto no seguro de saúde.')
+    st.write('- Simular um ambiente de produção em cloud integrado com data-lake, banco de dados relacionais, leitura de dados em batch e consumo de modelo de machine learning.')
+
+    st.header('Desafios Superados:')
+    st.write('- Elaboração de função de custo personalizada ao negócio')
+    st.write('- Utilização da função de custo como critério de seleção de modelos de Machine Learning, em detrimento das métricas convencionais de acurácia, precisão, revocação, ROC, AUC, F1-score')
+    st.write('- Lidar com base de dados desbalanceados. Para treinamento de modelos de classificação foram testados técnicas de amostragem estratificada, undersampling com variação da proporção de exemplos de classe minoritária sobre os dados de treino, oversampling (SMOTE), e variação de class_weights como forma de aumentar a penalização de erros de classes minoritárias')
+    st.write('- Desenvolvimento de APIs em StreamLit e prototipação em Flask (Disponivel no repositório do github)')
+ 
+
+    img = Image.open("static/kisspng2.jpg" ) 
     st.image(img)
 
 elif pagSelecionada == 'Equipe e Agradecimentos':
     st.title("Equipe e Agradecimentos")
+
+    col1, col2, col3 = st.columns(3)
+
+    with col1:
+        img = Image.open("static/AG.png" ) 
+        st.image(img)
+        st.write('')
+        img = Image.open("static/BF.png" ) 
+        st.image(img) 
+        st.write('')
+        img = Image.open("static/LC.png" ) 
+        st.image(img)
+        st.write('')
+        img = Image.open("static/WG.png" ) 
+        st.image(img)    
+
+
+    with col2:
+
+        st.markdown("**Alexandre Graziani Wildt**")
+        st.write('Data Scientist')
+        st.markdown('[LinkedIn](https://www.linkedin.com/in/alexandre-wildt-graziani-73638b15a/?originalSubdomain=de)')
+        
+        st.write('')
+
+        st.markdown("**Bruno Freitas**")
+        st.write('Data Scientist')
+        st.markdown('[LinkedIn](https://www.linkedin.com/in/bruno-hfreitas/)')
+
+        #st.write('')
+
+        st.markdown("**Lucas Chitolina**")
+        st.write('Data Scientist | Data Analytics ')
+        st.markdown('[LinkedIn](https://www.linkedin.com/in/lucas-chitolina/)')
+
+        st.write('')
+
+        st.markdown("**Weber Godoi**")
+        st.write('Data Scientist | Chem Engineer')
+        st.markdown('[LinkedIn](https://www.linkedin.com/in/webergodoi/)')

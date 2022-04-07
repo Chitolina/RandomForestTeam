@@ -17,7 +17,7 @@ st.set_page_config(page_title="Random Forest", page_icon="🌱")
 
 st.sidebar.image('static/rf team2.png', use_column_width=True )
 st.sidebar.title('Menu')
-pagSelecionada = st.sidebar.selectbox('Escolha uma seção',['Home','EDA', 'Previsão de vendas', 'Arquitetura do Projeto', 'Premissas, objetivos e desafios', 'Equipe e Agradecimentos'])
+pagSelecionada = st.sidebar.selectbox('Escolha uma seção',['Home','EDA', 'Previsão de vendas', 'Arquitetura do Projeto', 'Premissas, objetivos e desafios', 'Resultados','Equipe e Agradecimentos'])
 
 
 
@@ -47,14 +47,14 @@ if pagSelecionada == 'Home':
     st.markdown("O tema escolhido para elaboração do projeto foi: [Health Insurance Cross Sell Prediction 🏠 🏥](https://www.kaggle.com/anmolkumar/health-insurance-cross-sell-prediction).")
     st.markdown("Do que se trata o projeto?")
     st.markdown("Nosso cliente é uma seguradora que forneceu seguro de saúde para seus clientes, agora eles precisam de sua ajuda na construção de um modelo para prever se os segurados (clientes) do ano passado também terão interesse no seguro de veículos fornecido pela empresa.")
-    st.markdown("Construir um modelo para prever se um cliente estaria interessado em seguro de veículo é extremamente útil para a empresa, pois ela pode planejar adequadamente sua estratégia de comunicação para alcançar esses clientes e otimizar seu modelo de negócios e receita. Agora, para prever se o cliente estaria interessado em seguro de veículo, você tem informações sobre dados demográficos (gênero, idade, tipo de código de região), veículos (idade do veículo, danos), apólice (premium, canal de fornecimento) etc.")
+    st.markdown("Construir um modelo para prever se um cliente estaria interessado em seguro de veículo é extremamente útil para a empresa, pois ela pode planejar adequadamente sua estratégia de comunicação para alcançar esses clientes e otimizar seu modelo de negócios e receita. Agora, para prever se o cliente estaria interessado em seguro de veículo, você tem informações sobre dados demográficos (gênero, idade, localização), características do veículos (tempo de uso, danos, habilitação), apólice (valor do seguro de saúde e canal de vendas) etc.")
     st.header("Repositório do Projeto:")
     st.markdown("● [Análise Exploratória](https://github.com/Chitolina/RandomForestTeam/tree/main/EDA)")     
     st.markdown("● [Gerenciamento de Tarefas](https://trello.com/b/Nypkyrp3/randomforest)")
-    st.markdown("● Cloud (em breve)")      
+    st.markdown("● Cloud (em desenvolvimento)")      
     st.markdown("● [Modelo Preditivo](https://github.com/Chitolina/RandomForestTeam/blob/main/EDA/Funcao%20de%20Custo%20e%20Selecao%20de%20Modelo.ipynb)")
     st.markdown("● [Dashboard BI](https://github.com/Chitolina/RandomForestTeam/tree/main/BI_RANDOMF)")
-    st.markdown("● Apresentação (em breve)")
+    st.markdown("● [Apresentação](https://github.com/webercg/Health-Insurance-Cross-Sell-Prediction)")
     
 elif pagSelecionada == 'EDA':
     col1, col2, col3, col4, col5 = st.columns(5)
@@ -285,6 +285,41 @@ elif pagSelecionada == 'Premissas, objetivos e desafios':
 
     img = Image.open("static/kisspng2.jpg" ) 
     st.image(img)
+
+
+if pagSelecionada == 'Resultados':
+
+    col1, col2, col3, col4, col5 = st.columns(5)
+
+    with col1:
+        img = Image.open("static/rf2.png" ) 
+        st.image(img)
+    with col2:
+        img = Image.open("static/rf2.png" ) 
+        st.image(img)
+    with col3:
+        img = Image.open("static/rf3 logo.png" ) 
+        st.image(img)
+    with col4:
+        img = Image.open("static/rf2.png" ) 
+        st.image(img)
+    with col5:
+        img = Image.open("static/rf2.png" ) 
+        st.image(img)
+
+    st.title("Resultados") 
+
+    st.markdown("A implementação do modelo de Machine Learning:")
+
+    st.markdown("● Aumenta as receitas de entre  +1.39 mi á +8.71 mi de reais;")
+    st.markdown("● Entre os clientes sem interesse há uma taxa de conversão +10,75% (35.942 pessoas) após a oferta de desconto de 10% sobre o seguro de saúde. É possível, dessa forma, aumentar a quantidade de pessoas interessadas em +76,9%;")
+
+    st.markdown("Performance e Resultados:")
+    st.markdown("● O Modelo acerta 97,54% dos clientes interessados;")     
+    st.markdown("● A probabilidade do cliente ter interesse dado que o modelo a classificou como interessada é de 29,41%")
+    st.markdown("● O canal de venda que maximiza a probabilidade do cliente aceitar o seguro é sugerido na API.")      
+
+
 
 elif pagSelecionada == 'Equipe e Agradecimentos':
     st.title("Equipe e Agradecimentos")
